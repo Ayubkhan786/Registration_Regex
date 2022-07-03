@@ -22,3 +22,13 @@ var result1 = Rp1.ValidateLast();
 Console.WriteLine(result1);
 Console.WriteLine("------------------------------------------");
 
+
+
+
+//To Validate Mail
+
+RegexPattern Rp2 = new RegexPattern();
+var result2 = Rp2.ValidateMail();
+Console.WriteLine(result2);
+Console.WriteLine("------------------------------------------");
+

@@ -36,9 +36,18 @@ namespace Registration_Regex
         /// Mobile Format - E.g. 91 9919819801 
         /// Country code followed by space and 10 digit number
         /// </summary>
-       
         string MobileNumber= "^[91]+[]+[6-9]{1}+[0-9]{9}$";
         string Number= Console.ReadLine();
+
+        /// <summary>
+        /// Password rules 
+        /// minimum 8 Characters
+        ///  at least 1 Upper Case 
+        ///  at least 1 numeric number
+        ///  Exactly 1 Special Character
+        /// </summary>
+        string Password = "^[A-Z]{1}+[a-zA-Z0-9]{8,}+[0-9]{1}+[!@#$%&*]{1}$";
+        string Pass = Console.ReadLine();
 
 
 
@@ -60,6 +69,10 @@ namespace Registration_Regex
         public bool ValidateNumber()
         {
             return Regex.IsMatch(Number, MobileNumber);
+        }
+        public bool ValidatePassword()
+        {
+            return Regex.IsMatch(Pass, Password);
         }
     }
 }

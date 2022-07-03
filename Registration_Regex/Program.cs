@@ -39,3 +39,12 @@ RegexPattern Rp3 = new RegexPattern();
 var result3 = Rp3.ValidateNumber();
 Console.WriteLine(result3);
 Console.WriteLine("------------------------------------------");
+
+
+
+//To Validate Password
+
+RegexPattern Rp4 = new RegexPattern();
+var result4 = Rp4.ValidatePassword();
+Console.WriteLine(result4);
+Console.WriteLine("------------------------------------------");

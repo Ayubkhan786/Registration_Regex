@@ -29,10 +29,20 @@ namespace Registration_Regex
         ///  2 optional(xyz & in) 
         ///  with precise @ and.positions
         /// </summary>
-        /// 
-
         string Email = "^[0-9a-zA-Z]+.[a-zA-Z]{0,5}+@[a-zA-Z]{2,3}]+.[a-zA-Z]{2,3}+.[a-zA-Z]{2,4}&";
         string Mail = Console.ReadLine();
+
+        /// <summary>
+        /// Mobile Format - E.g. 91 9919819801 
+        /// Country code followed by space and 10 digit number
+        /// </summary>
+       
+        string MobileNumber= "^[91]+[]+[6-9]{1}+[0-9]{9}$";
+        string Number= Console.ReadLine();
+
+
+
+
         public bool Validate()
         { 
             return Regex.IsMatch(First, FirstName);
@@ -45,6 +55,11 @@ namespace Registration_Regex
         public bool ValidateMail()
         {
             return Regex.IsMatch(Mail, Email);
+        }
+
+        public bool ValidateNumber()
+        {
+            return Regex.IsMatch(Number, MobileNumber);
         }
     }
 }

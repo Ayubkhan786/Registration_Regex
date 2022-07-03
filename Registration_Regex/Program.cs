@@ -32,3 +32,10 @@ var result2 = Rp2.ValidateMail();
 Console.WriteLine(result2);
 Console.WriteLine("------------------------------------------");
 
+
+//To Validate Number
+
+RegexPattern Rp3 = new RegexPattern();
+var result3 = Rp3.ValidateNumber();
+Console.WriteLine(result3);
+Console.WriteLine("------------------------------------------");

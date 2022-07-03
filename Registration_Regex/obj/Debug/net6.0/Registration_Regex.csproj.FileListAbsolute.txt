@@ -1,0 +1,15 @@
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\bin\Debug\net6.0\Registration_Regex.exe
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\bin\Debug\net6.0\Registration_Regex.deps.json
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\bin\Debug\net6.0\Registration_Regex.runtimeconfig.json
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\bin\Debug\net6.0\Registration_Regex.dll
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\bin\Debug\net6.0\Registration_Regex.pdb
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\obj\Debug\net6.0\Registration_Regex.csproj.AssemblyReference.cache
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\obj\Debug\net6.0\Registration_Regex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\obj\Debug\net6.0\Registration_Regex.AssemblyInfoInputs.cache
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\obj\Debug\net6.0\Registration_Regex.AssemblyInfo.cs
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\obj\Debug\net6.0\Registration_Regex.csproj.CoreCompileInputs.cache
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\obj\Debug\net6.0\Registration_Regex.dll
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\obj\Debug\net6.0\refint\Registration_Regex.dll
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\obj\Debug\net6.0\Registration_Regex.pdb
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\obj\Debug\net6.0\Registration_Regex.genruntimeconfig.cache
+C:\Users\Ayub\source\repos\Registration_Regex\Registration_Regex\obj\Debug\net6.0\ref\Registration_Regex.dll

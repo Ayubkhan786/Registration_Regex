@@ -13,11 +13,23 @@ namespace Registration_Regex
         /// Name starts with Capital
         /// Length Min 3 Char
         /// </summary>
-         string FirstName = "^[A-Z]{1}[a-zA-Z]{3,10}$";
-         string First = Console.ReadLine();
+         string FirstName = "^[A-Z]{1}[a-zA-Z]{3,15}$";
+        string First = Console.ReadLine();
+       
+        /// <summary>
+        /// Name starts with Capital
+        /// Length Min 3 Char
+        /// </summary>
+        string LastName = "^[A-Z]{1}[a-zA-Z]{3,15}$";
+        string Last = Console.ReadLine();
+        
         public bool Validate()
         { 
             return Regex.IsMatch(First, FirstName);
+        }
+       public bool ValidateLast()
+        { 
+            return Regex.IsMatch(Last, LastName);
         }
        
     }

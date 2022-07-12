@@ -52,25 +52,25 @@ namespace Registration_Regex
 
 
 
-        public bool Validate()
-        { 
+        public bool Validate(string First)
+        {
             return Regex.IsMatch(First, FirstName);
         }
-       public bool ValidateLast()
-        { 
+        public bool ValidateLast(string Last)
+        {
             return Regex.IsMatch(Last, LastName);
         }
 
-        public bool ValidateMail()
+        public bool ValidateMail(string Mail)
         {
             return Regex.IsMatch(Mail, Email);
         }
 
-        public bool ValidateNumber()
+        public bool ValidateNumber(string Number)
         {
             return Regex.IsMatch(Number, MobileNumber);
         }
-        public bool ValidatePassword()
+        public bool ValidatePassword(string Pass)
         {
             return Regex.IsMatch(Pass, Password);
         }

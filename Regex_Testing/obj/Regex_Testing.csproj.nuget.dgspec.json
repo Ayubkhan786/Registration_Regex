@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Registration_Regex\\Registration_Regex.csproj": {}
+    "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Regex_Testing\\Regex_Testing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Registration_Regex\\Registration_Regex.csproj": {
+    "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Regex_Testing\\Regex_Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Registration_Regex\\Registration_Regex.csproj",
-        "projectName": "Registration_Regex",
-        "projectPath": "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Registration_Regex\\Registration_Regex.csproj",
+        "projectUniqueName": "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Regex_Testing\\Regex_Testing.csproj",
+        "projectName": "Regex_Testing",
+        "projectPath": "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Regex_Testing\\Regex_Testing.csproj",
         "packagesPath": "C:\\Users\\Ayub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Registration_Regex\\obj\\",
+        "outputPath": "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Regex_Testing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ayub\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

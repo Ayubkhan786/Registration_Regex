@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AmNzmMNDoWJcus2wYQE492dJVoJHOu5+UP//xf1aeO12ngnx+mLj2S3twMMyBNsPZv8agMcpKIMCAGMjUwrE8w==",
+  "dgSpecHash": "6i7q+vQAxCqLx+S7JgCac492ODzemriidefc/jdfZdeSyJKk1OXw0bgzgPS+JXflYAvMMwW4u+fVkNnvK8N6Xw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Regex_Testing\\Regex_Testing.csproj",
   "expectedPackageFiles": [
@@ -93,5 +93,12 @@
     "C:\\Users\\Ayub\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Ayub\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Ayub\\source\\repos\\Registration_Regex\\Regex_Testing\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

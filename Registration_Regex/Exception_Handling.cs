@@ -20,5 +20,5 @@ namespace Registration_Regex
                 this.ex = ex;
             }
         }
-    }
+    
 }
